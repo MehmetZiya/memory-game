@@ -24,7 +24,7 @@ button:hover {
   grid-gap: 1.4rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .card-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

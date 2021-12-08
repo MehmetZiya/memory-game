@@ -3,16 +3,16 @@ import SingleCard from './components/SingleCard'
 import './App.css'
 
 const cardImages = [
-  { src: '/img/pokemon1.png', matched: false },
-  { src: '/img/pokemon2.png', matched: false },
-  { src: '/img/pokemon3.png', matched: false },
-  { src: '/img/pokemon4.png', matched: false },
-  { src: '/img/pokemon5.png', matched: false },
-  { src: '/img/pokemon6.png', matched: false },
-  { src: '/img/pokemon7.png', matched: false },
-  { src: '/img/pokemon8.png', matched: false },
-  { src: '/img/pokemon9.png', matched: false },
-  { src: '/img/pokemon10.png', matched: false },
+  { src: '/img/pokemon1.jpg', matched: false },
+  { src: '/img/pokemon2.jpg', matched: false },
+  { src: '/img/pokemon3.jpg', matched: false },
+  { src: '/img/pokemon4.jpg', matched: false },
+  { src: '/img/pokemon5.jpg', matched: false },
+  { src: '/img/pokemon6.jpg', matched: false },
+  { src: '/img/pokemon7.jpg', matched: false },
+  { src: '/img/pokemon8.jpg', matched: false },
+  { src: '/img/pokemon9.jpg', matched: false },
+  { src: '/img/pokemon10.jpg', matched: false },
 ]
 const App = () => {
   const [cards, setCards] = useState([])
