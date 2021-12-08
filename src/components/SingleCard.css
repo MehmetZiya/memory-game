@@ -17,7 +17,6 @@
   position: absolute;
   width: 80%;
   height: auto;
-  margin: 1rem 1rem;
 }
 .flipped {
   display: flex;
@@ -30,6 +29,10 @@
   transform: rotateY(0deg);
   transition-delay: 0.2s;
   width: 80%;
+  height: auto;
+}
+.front img {
+  width: 70%;
   height: auto;
 }
 
